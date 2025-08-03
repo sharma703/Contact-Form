@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="contact_form.css"/>
+</head>
+<body>
+  <div class="contact-form">
+    <div class="form-header"></div>
+    <h2>Contact Form</h2>
+    <p>Please let us know your query.</p>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your Full Name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="What should we reply you back" required />
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" placeholder="The Reason" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" placeholder="Explain your issue please." required></textarea>
+
+      <button type="submit">Submit Form</button>
+        <button type="reset">Reset Form</button>
+    </form>
+  </div>
+</body>
+</html>
